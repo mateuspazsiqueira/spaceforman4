@@ -105,6 +105,12 @@ nav a:hover{
 } 
 .imagembeneficios{
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 5px #000000;
+}
+.imagembeneficios:hover{
+    opacity: 0.3;
 }
 .video{
     width: 560px;
@@ -119,4 +125,19 @@ footer{
     font-size: 13px;
  
     
+}
+@media screen and (max-width: 480px){
+    .caixa, .principal, .mapa,.mapa-conteudo, .conteudo-beneficios, .video{
+        width:auto;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    
+       
+    
+
 }
